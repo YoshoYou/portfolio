@@ -1,0 +1,58 @@
+.experience-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.experience-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.arrow_left,
+.arrow_right {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6751b9;
+    border-radius: 0.65rem;
+    border: 1.5px solid hsl(253, 43%, 52%);
+    background: #130f2a;
+    position: absolute;
+    top: 55%;
+    z-index: 2;
+    cursor: pointer;
+}
+.arrow_left span,
+.arrow_right span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.arrow_left {
+    left: -2rem;
+}
+.arrow_left {
+    right: -2rem;
+}
+
+@media (max-width:1025px) {
+    .arrow_left {
+        left: 0rem;
+    }
+    .arrow_right {
+        right: 0rem;
+    }
+}
+@media (max-width:768px) {
+    .experience-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .arrow_left {
+        left: -1rem;
+    }
+    .arrow_right {
+        right: -1rem;
+    }
+}
