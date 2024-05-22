@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6a9b54b2.css",
+    "main.js": "/portfolio/static/js/main.25549937.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Aya.jpg": "/portfolio/static/media/Aya.e7e4e13d0d3751ecce41.jpg",
+    "static/media/Aya_Jouney_CV.pdf": "/portfolio/static/media/Aya_Jouney_CV.f170dd93b1f00444456b.pdf",
+    "static/media/softSkills.png": "/portfolio/static/media/softSkills.431b74d158b69d5ba8d4.png",
+    "static/media/front.png": "/portfolio/static/media/front.7525ff1769b8dac7c854.png",
+    "static/media/html.webp": "/portfolio/static/media/html.cb194e23cbc0dce2ec44.webp",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio/index.html",
+    "main.6a9b54b2.css.map": "/portfolio/static/css/main.6a9b54b2.css.map",
+    "main.25549937.js.map": "/portfolio/static/js/main.25549937.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a9b54b2.css",
+    "static/js/main.25549937.js"
+  ]
+}
