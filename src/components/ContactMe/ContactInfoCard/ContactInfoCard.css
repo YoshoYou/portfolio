@@ -14,13 +14,13 @@
 
 .contact-details-card .icon {
     width: 4rem;
-    height: 4rem;
+    height: 4.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.5rem;
     background: #3e3072;
-    margin-bottom: 0.8rem;
+    /* margin-bottom: 0.8rem; */
     position: absolute;
     left: 0rem;
     top: 0rem;
@@ -31,6 +31,5 @@
     object-fit: contain;
 }
 .contact-details-card p {
-    font-size: 0.9rem;
-    font-weight: 400;
+    margin: 0;
 }
