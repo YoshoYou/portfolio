@@ -17,7 +17,7 @@ export const ContactMe = () => {
                         />
                         <ContactInfoCard
                             iconUrl={Git}
-                            text="ayajouneyofficial@gmail.com"
+                            text="github.com/YoshoYou"
                         />
                     </div>
                     <div style={ { flex: 1 } }>
