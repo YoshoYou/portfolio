@@ -1,64 +1,24 @@
 import React from 'react';
 import './MyRepo.css';
+import { My_Repo } from '../../Utils/data';
 const MyRepo = () => {
   return (
     <section>
-      <div className="repo-container">
+      <div className="repo-container" id='My-Repo'>
         <h5>My Repository</h5>
         <p>check out my github pages to see my project live</p>
         <div className="repo-content">
-          <a href="https://yoshoyou.github.io/chat-gpt-app/"  target='_blank'>
+          { My_Repo.map( ( item ) => (
+          <a href={item.link}  target='_blank' rel='noreferrer'>
           <div className="repo">
-              <h6>Chat GPT App</h6>
-              <p>React JS ,HTML , CSS</p>
+              <h6>{item.title}</h6>
+              <p>{item.description}</p>
             </div>
-          </a>
-            <a href="https://yoshoyou.github.io/medical-website/"  target='_blank'>
-          <div className="repo">
-              <h6>Medical Website</h6>
-              <p>JavaScript , HTML , CSS</p>
-            </div>
-          </a>
-          <a href="https://yoshoyou.github.io/Genome/"  target='_blank'>
-          <div className="repo">
-              <h6>Genome</h6>
-              <p>JavaScript , HTML , CSS</p>
-                      </div>
-          </a>
-          <a href="https://yoshoyou.github.io/Template-one/" target='_blank'>
-          <div className="repo">
-              <h6>Template One</h6>
-              <p>HTML , CSS</p>
-            </div>
-          </a>
-          <a href="https://yoshoyou.github.io/Template-two/"  target='_blank'>
-          <div className="repo">
-              <h6>Template two</h6>
-              <p>HTML , CSS</p>
-            </div>
-          </a>
-          <a href="https://yoshoyou.github.io/Template-three/" target='_blank'>
-          <div className="repo">
-              <h6>Template three</h6>
-              <p>HTML , CSS</p>
-            </div>
-          </a>
-          <a href="https://yoshoyou.github.io/pictures-gallery/"  target='_blank'>
-          <div className="repo">
-              <h6>Picture Gallery-1</h6>
-              <p>JavaScript ,HTML , CSS</p>
-            </div>
-          </a>
-          <a href="https://yoshoyou.github.io/pictures-gallery-2/"  target='_blank'>
-          <div className="repo">
-              <h6>Picture Gallery-2</h6>
-              <p>JavaScript , HTML , CSS</p>
-            </div>
-            </a>
+            </a>           
+          ))}
         </div>
       </div>
     </section>
   )
 }
-
 export default MyRepo

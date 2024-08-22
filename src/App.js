@@ -11,26 +11,17 @@ import MyRepo from "./components/GH-pages/MyRepo";
 function App ()
 {
   return (
-    
-
-
     <div className="App">
       <Navbar />
       <div className="container">
           <Hero/>
         <Skills />
           {/* <WorkExperience /> */ }
-        
         <MyRepo />
-          
         <ContactMe />
-        
       </div>
       <Footer/>
-      
       </div>
-    
   );
 }
-
 export default App;

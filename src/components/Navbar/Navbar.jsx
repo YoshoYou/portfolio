@@ -14,9 +14,7 @@ const Navbar = () =>
     {
         setOpenMenu( !openMenu );
     };
-
     const totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-
     window.onscroll = () =>
     {
         const currentHeight = document.documentElement.scrollTop; 
@@ -30,7 +28,6 @@ const Navbar = () =>
             ref2.current.style.right = '-16rem';
         }
     }
-
     const handleClick = () =>
     {
         window.scrollTo( {
@@ -38,9 +35,6 @@ const Navbar = () =>
             behavior:'smooth',
         })        
     }
-    
-    
-    
     return (
         <>
             <MobileNav isOpen={ openMenu } toggleMenu={toggleMenu} setOpenMenu={setOpenMenu} />
@@ -58,7 +52,7 @@ const Navbar = () =>
                             <a href='#skills' className='menu-item'>Skills</a>
                         </li>
                         <li>
-                            <a href="#work" className="menu-item">Work Experience</a>
+                            <a href="#My-Repo" className="menu-item">My-Repo</a>
                         </li>
                         <li>
                             <a  href='#contact-me' className="menu-item">Contact Me</a>
@@ -67,22 +61,16 @@ const Navbar = () =>
                             Hire Me
                         </button>
                     </ul>
-                    
                     <div className="btn">
                         { openMenu ?"":
-                        
                             <IoMenu className='open-menu' style={ { fontSize: "2rem" } } onClick={ toggleMenu} /> 
-                            
                         }
                     </div>
-                    
             </div>
             </nav>
             <div className="nav-scrollColor-progress" ref={ ref } ></div>
             <span className='scroll-btn' ref={ref2} onClick={handleClick} >up</span>
-        
         </>
     )
 }
-
 export default Navbar

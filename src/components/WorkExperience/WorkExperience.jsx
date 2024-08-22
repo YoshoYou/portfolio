@@ -24,12 +24,10 @@ export const WorkExperience = () =>
             },
         ],
     };
-
     const slideRight = () =>
     {
         sliderRef.current.slicNext();
     }
-
     const slideLeft = () =>
     {
         sliderRef.current.slicPrev();

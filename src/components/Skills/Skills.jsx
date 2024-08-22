@@ -7,7 +7,6 @@ import { SkillsInfoCard } from './SkillsInfoCard/SkillsInfoCard';
 export const Skills = () =>
 {
     const [ selectedSkill, setSelectedSkill ] = useState( SKILLS[ 0 ] );
-
     const handleSelectSkill = (data) =>
     {
         setSelectedSkill( data );
@@ -20,7 +19,6 @@ export const Skills = () =>
                     { SKILLS.map( ( item ) =>
                     (
                         <SkillCard
-
                             key={ item.title }
                             iconUrl={ item.icon }
                             title={ item.title }
