@@ -16,16 +16,16 @@ export const MobileNav = ({toggleMenu,isOpen,setOpenMenu}) =>
                     <SiCodechef size={ 50 } style={{marginBottom:"3rem"}} />
                     <ul>
                         <li>
-                            <a className='menu-item'>Home</a>
+                            <a href="#Home" className='menu-item'>Home</a>
                         </li>
                         <li>
-                            <a className='menu-item'>Skills</a>
+                            <a href="#skills" className='menu-item'>Skills</a>
                         </li>
                         <li>
-                            <a  className="menu-item">Work Experience</a>
+                            <a href="#My-Repo" className="menu-item">Work Experience</a>
                         </li>
                         <li>
-                            <a  className="menu-item">Contact Me</a>
+                            <a href="#contact-btn" className="menu-item">Contact Me</a>
                         </li>
                         <button className='contact-btn' onClick={()=>{}}>Hire Me</button>
                     </ul>

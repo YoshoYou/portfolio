@@ -10,7 +10,8 @@ const MyRepo = () => {
         <div className="repo-content">
           { My_Repo.map( ( item ) => (
           <a href={item.link}  target='_blank' rel='noreferrer'>
-          <div className="repo">
+              <div className="repo">
+                <img src={item.image} alt="" />
               <h6>{item.title}</h6>
               <p>{item.description}</p>
             </div>

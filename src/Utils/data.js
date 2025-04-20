@@ -1,3 +1,5 @@
+import { carDealer, Do, dr_portfolio, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical } from "../assets/images/export";
+
 export const SKILLS = [
     {
         title: "Frontend",
@@ -39,43 +41,63 @@ export const WORK_EXPEIENCE = [
 ];
 export const My_Repo = [
     {
+        title: "Car Showroom",
+        link: "https://yoshoyou.github.io/car-dealer/",
+        description: "React JS ,HTML , CSS",
+        image:`${carDealer}`
+    },
+    {
+        title: "Dr.sara jouney portfolio",
+        link: "https://yoshoyou.github.io/d.sara-jouney-portfolio/",
+        description: "React JS ,HTML , CSS",
+        image:`${dr_portfolio}`
+    },
+    {
         title: "Chat GPT App",
         link: "https://yoshoyou.github.io/chat-gpt-app/",
-        description:"React JS ,HTML , CSS"
+        description: "React JS ,HTML , CSS",
+        image:`${Gpt}`
     },
     {
         title: "Medical School",
         link: "https://yoshoyou.github.io/medical-website/",
-        description:"JavaScript , HTML , CSS"
+        description: "JavaScript , HTML , CSS",
+        image:`${medical}`
     },
     {
         title: "Genome",
         link: "https://yoshoyou.github.io/Genome/",
-        description:"JavaScript ,HTML , CSS"
+        description: "JavaScript ,HTML , CSS",
+        image:`${Genome}`
     },
     {
         title: "Template One",
         link: "https://yoshoyou.github.io/Template-one/",
-        description:"HTML , CSS"
+        description: "HTML , CSS",
+        image:`${LeonOne}`
     },
     {
         title: "Template Two",
         link: "https://yoshoyou.github.io/Template-two/",
-        description:"HTML , CSS"
+        description: "HTML , CSS",
+        image:`${Kasper}`
     },
     {
         title: "Template three",
         link: "https://yoshoyou.github.io/Template-three/",
-        description:"HTML , CSS"
+        description:"HTML , CSS",
+        image:`${Index}`
     },
     {
         title: "Picture Gallery-1",
         link: "https://yoshoyou.github.io/pictures-gallery/",
-        description:" JavaScript , HTML , CSS"
+        description: " JavaScript , HTML , CSS",
+        image:`${Do}`
     },
     {
         title: "Picture Gallery-2",
         link: "https://yoshoyou.github.io/pictures-gallery-2/",
-        description:" JavaScript , HTML , CSS"
+        description: " JavaScript , HTML , CSS",
+        image:`${JS_Slider}`
     }
 ]

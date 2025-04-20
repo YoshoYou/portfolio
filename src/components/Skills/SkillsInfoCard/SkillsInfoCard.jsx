@@ -17,9 +17,8 @@ export const SkillsInfoCard = ({heading,skills}) => {
                             <div className="skill-progress" style={ { width: item.percentage } } />
                         </div>
                     </React.Fragment>
-                 ) )
+                ) )
                 }
-
             </div>
         </div>
     )

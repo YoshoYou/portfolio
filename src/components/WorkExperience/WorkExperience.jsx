@@ -1,7 +1,7 @@
 import React from 'react'
 import './WorkExperience.css'
 import { WORK_EXPEIENCE } from '../../Utils/data';
-import { ExperienceCard } from './ExperienceCard/ExperienceCard';
+import { ExperienceCard } from './ExperienceCard/ExperienceCard.jsx';
 import { useRef } from 'react';
 import Slider from 'react-slick';
 export const WorkExperience = () =>
@@ -12,14 +12,14 @@ export const WorkExperience = () =>
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        sllideToScroll: 1,
+        sllidesToScroll: 1,
         arrows: false,
         responsive: [
             {
                 breakpoint: 769,
                 settings: {
                     slidesToShow: 1,
-                    sllideToScroll: 1,
+                    sllidesToScroll: 1,
                 },
             },
         ],

@@ -22,12 +22,18 @@ p {
     text-align: center;
 }
 .repo-content .repo {
-    padding: 1rem;
     margin: 2rem;
-    border-radius: 15rem;
+    border-radius: 3rem;
     border: 2px solid rgba(182, 73, 207, 0.9);
+    width: fit-content;
+    height: fit-content;
     transition: 0.7s;
     cursor: pointer;
+    overflow: hidden;
+}
+.repo-content .repo img {
+    width: 400px;
+    height: 300px;
 }
 .repo-content .repo:hover {
     transform: translateY(-1rem);
@@ -46,8 +52,16 @@ h6 {
     font-weight: 300;
     letter-spacing: 0.04rem;
 }
-@media (max-width:750px){
+
+@media (max-width:1020px){
     .repo-content {
     grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
+}
+@media (max-width:400px){
+.repo-content .repo img {
+    width: 250px;
+    height: 200px;
 }
 }
