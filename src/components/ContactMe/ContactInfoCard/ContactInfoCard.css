@@ -1,32 +1,44 @@
 .contact-details-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center ;
+    justify-content: flex-start;
     background: #130f2a;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
-    padding: 1.5rem;
     margin-bottom: 2rem;
-    position: relative;
 }
 .contact-details-card .icon {
+    display:flex;
+    justify-content:center;
+    align-items:center;
     width: 4rem;
     height: 4.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 0.5rem;
     background: #3e3072;
-    position: absolute;
-    left: 0rem;
-    top: 0rem;
+    padding: 1rem;
 }
-.icon img {
+.contact-details-card .icon img {
     width: 1.8rem;
     height: auto;
     object-fit: contain;
 }
-.contact-details-card p {
-    margin: 0;
+.contact-details-card a {
+    margin: 1rem;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:550px){
+    .contact-details-card .icon {
+        margin: 0;
+    }
+    .contact-details-card a {
+    font-size: 19px;
+}
+}
+@media (max-width:450px){
+    .contact-details-card a {
+    font-size: 14px;
+}
 }

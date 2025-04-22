@@ -9,7 +9,7 @@ const MyRepo = () => {
         <p>check out my github pages to see my project live</p>
         <div className="repo-content">
           { My_Repo.map( ( item ) => (
-          <a href={item.link}  target='_blank' rel='noreferrer'>
+          <a href={item.link} key={item.key} target='_blank' rel='noreferrer'>
               <div className="repo">
                 <img src={item.image} alt="" />
               <h6>{item.title}</h6>

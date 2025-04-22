@@ -1,9 +1,9 @@
 import { carDealer, Do, dr_portfolio, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical } from "../assets/images/export";
-
 export const SKILLS = [
     {
         title: "Frontend",
         icon: "./assets/images/front.png",
+        key:  1,
         skills: [
             { skill: "HTML5", percentage: "90%" },
             { skill: "CSS3 {Sass/SCSS}", percentage: "80%" },
@@ -14,6 +14,7 @@ export const SKILLS = [
     {
         title: "Tools",
         icon: "../assets/images/tool.png",
+        key:2,
         skills: [
             { skill: "Git & GitHub", percentage: "80%" },
             { skill: "Visual Studio Code", percentage: "75%" },
@@ -24,6 +25,7 @@ export const SKILLS = [
     {
         title: "Soft Skills",
         icon: './image/softSkills.png',
+        key:3,
         skills: [
             { skill: "Problem-solving", percentage: "80%" },
             { skill: "Collaboration", percentage: "85%" },
@@ -44,60 +46,70 @@ export const My_Repo = [
         title: "Car Showroom",
         link: "https://yoshoyou.github.io/car-dealer/",
         description: "React JS ,HTML , CSS",
-        image:`${carDealer}`
+        image: `${ carDealer }`,
+        key:1
     },
     {
         title: "Dr.sara jouney portfolio",
         link: "https://yoshoyou.github.io/d.sara-jouney-portfolio/",
         description: "React JS ,HTML , CSS",
-        image:`${dr_portfolio}`
+        image: `${ dr_portfolio }`,
+        key:2
     },
     {
         title: "Chat GPT App",
         link: "https://yoshoyou.github.io/chat-gpt-app/",
         description: "React JS ,HTML , CSS",
-        image:`${Gpt}`
+        image: `${ Gpt }`,
+        key:3
     },
     {
         title: "Medical School",
         link: "https://yoshoyou.github.io/medical-website/",
         description: "JavaScript , HTML , CSS",
-        image:`${medical}`
+        image: `${ medical }`,
+        key:4
     },
     {
         title: "Genome",
         link: "https://yoshoyou.github.io/Genome/",
         description: "JavaScript ,HTML , CSS",
-        image:`${Genome}`
+        image: `${ Genome }`,
+        key:5
     },
     {
         title: "Template One",
         link: "https://yoshoyou.github.io/Template-one/",
         description: "HTML , CSS",
-        image:`${LeonOne}`
+        image: `${ LeonOne }`,
+        key:6
     },
     {
         title: "Template Two",
         link: "https://yoshoyou.github.io/Template-two/",
         description: "HTML , CSS",
-        image:`${Kasper}`
+        image: `${ Kasper }`,
+        key:7
     },
     {
         title: "Template three",
         link: "https://yoshoyou.github.io/Template-three/",
         description:"HTML , CSS",
-        image:`${Index}`
+        image: `${ Index }`,
+        key:8
     },
     {
         title: "Picture Gallery-1",
         link: "https://yoshoyou.github.io/pictures-gallery/",
         description: " JavaScript , HTML , CSS",
-        image:`${Do}`
+        image: `${ Do }`,
+        key:9
     },
     {
         title: "Picture Gallery-2",
         link: "https://yoshoyou.github.io/pictures-gallery-2/",
         description: " JavaScript , HTML , CSS",
-        image:`${JS_Slider}`
+        image: `${ JS_Slider }`,
+        key:10
     }
 ]

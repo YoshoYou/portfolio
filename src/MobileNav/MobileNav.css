@@ -12,7 +12,7 @@
     transition: all 0.3s ease;
     transform: translateX(-100vw);
 }
-.icon {
+.mobile-menu-container .icon {
     position: absolute;
     top: 2rem;
     right: 4rem;

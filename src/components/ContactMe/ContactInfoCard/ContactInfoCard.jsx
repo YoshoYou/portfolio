@@ -6,7 +6,7 @@ const ContactInfoCard = ({iconUrl,text}) => {
             <div className="icon">
                 <img src={iconUrl} alt="text" />
             </div>
-            <p>{text}</p>
+            <a href={text}>{text}</a>
         </div>
     )
 }

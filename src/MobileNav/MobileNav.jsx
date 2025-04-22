@@ -25,7 +25,7 @@ export const MobileNav = ({toggleMenu,isOpen,setOpenMenu}) =>
                             <a href="#My-Repo" className="menu-item">Work Experience</a>
                         </li>
                         <li>
-                            <a href="#contact-btn" className="menu-item">Contact Me</a>
+                            <a href="#contact-me" className="menu-item">Contact Me</a>
                         </li>
                         <button className='contact-btn' onClick={()=>{}}>Hire Me</button>
                     </ul>

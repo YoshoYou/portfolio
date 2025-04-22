@@ -25,6 +25,5 @@ export const ContactMe = () => {
             </div>
             </div>
         </section>
-
     )
 }
