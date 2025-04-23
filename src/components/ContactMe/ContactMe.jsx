@@ -13,10 +13,12 @@ export const ContactMe = () => {
                         <ContactInfoCard
                             iconUrl={gmail}
                             text="ayajouneyofficial@gmail.com"
+                            hLocation="mailto:ayajouneyofficial@gmail.com"
                         />
                         <ContactInfoCard
                             iconUrl={Git}
                             text="github.com/YoshoYou"
+                            hLocation="https://github.com/YoshoYou"
                         />
                     </div>
                     <div style={ { flex: 1 } }>
