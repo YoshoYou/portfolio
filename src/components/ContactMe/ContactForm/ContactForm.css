@@ -2,6 +2,7 @@
     width: 100%;
 }
 form {
+    position: relative;
     display: flex;
     flex-direction: column;
     grid-gap: 1.5rem;
@@ -32,6 +33,12 @@ form button {
     padding: 0.7rem;
     transition: all 0.3 ease;
     cursor: pointer;
+}
+.contact-form-content .alert.error {
+    border: 2px solid red;
+    padding: 0.5rem  1rem;
+    position: absolute;
+    top: 0;
 }
 form button:hover {
     color: #a892fe;

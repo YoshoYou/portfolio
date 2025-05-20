@@ -8,6 +8,7 @@ export const ContactMe = () => {
         <section>
             <div className="contact-container" id='contact-me'>
                 <h5>Contact Me</h5>
+                <p>You can send me Your response by clicking my email and writing your message Or use this Form down below and write your response directly.</p>
                 <div className="contact-content">
                     <div style={ { flex: 1 } }>
                         <ContactInfoCard

@@ -6,7 +6,7 @@ const ContactInfoCard = ({iconUrl,text,hLocation}) => {
             <div className="icon">
                 <img src={iconUrl} alt="text" />
             </div>
-            <a href  onClick={(e)=>{
+            <a href="" onClick={(e)=>{
                 window.open(`${hLocation}`);
                 e.preventDefault();
             } } >{ text }</a>

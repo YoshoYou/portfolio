@@ -7,6 +7,11 @@
     font-weight: 600;
     margin-bottom: 3rem;
 }
+.contact-container p {
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
 .contact-content {
     display: flex;
     gap: 3rem;
