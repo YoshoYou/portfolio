@@ -4,8 +4,6 @@ import "../components/Navbar/Navbar"
 import { CgCloseR } from "react-icons/cg";
 export const MobileNav = ({toggleMenu,isOpen,setOpenMenu}) =>
 {
-
-    
     return (
     <>
             <div

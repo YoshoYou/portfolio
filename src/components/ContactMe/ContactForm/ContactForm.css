@@ -39,6 +39,7 @@ form button {
     padding: 0.5rem  1rem;
     position: absolute;
     top: 0;
+    /* margin: 2rem; */
 }
 form button:hover {
     color: #a892fe;
@@ -58,5 +59,22 @@ form button:hover {
         font-size: 0.9rem;
         padding: 0.7rem;
         border-radius: 0.3rem;
+    }
+}
+@media (max-width:920px){
+    .contact-form-content .alert.error {
+        top: 80%;
+        left:0;
+        width: 50%;
+}
+}
+@media (max-width:776px){
+    .contact-form-content .alert.error {
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        position:relative;
     }
 }

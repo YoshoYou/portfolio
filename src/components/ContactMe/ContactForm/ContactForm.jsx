@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './ContactForm.css'
 import emailjs from 'emailjs-com'
+import * as XLSX from 'xlsx'
 const ContactMe = () =>
 {
     const [ formData, setFormData ] = useState( {
@@ -20,6 +21,13 @@ const ContactMe = () =>
         const { name, value } = e.target;
         setFormData( prev => ( { ...prev, [ name ]: value } ))
     };
+    const exportToExcel = () =>
+    {
+        const worksheet = XLSX.utils.json_to_sheet( formData );
+        const workbook = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet( workbook, worksheet );
+        XLSX.writeFile( workbook, "Report.xlsx" );
+    }
 
     const handleSubmit = async( e ) =>
     {
@@ -46,6 +54,7 @@ const ContactMe = () =>
                 type: 'success',
                 messgae: "Your Message has been sent successfully"
             } );
+            exportToExcel();
             setFormData( { name: '', email: '', message: '' } );
         }
         catch (error)
