@@ -20,4 +20,7 @@ import Index from './Index.png'
 import LeonOne from './LeonOne.png'
 import medical from './Medical_School.png'
 import carDealer from './Car Dealer.png'
-export {medical,Index,carDealer,Do,dr_portfolio,Gpt,JS_Slider,Genome,Kasper,LeonOne,html,js,reactIcon,Aya,css,gmail,Git,github,front,tool,softSkills,Aya_jouney_CV};
+import agri_plat from './agri_plat.png'
+import ToDoList from './ToDoList.png'
+import ToList from './ToList.png'
+export {medical,ToDoList,ToList,agri_plat,Index,carDealer,Do,dr_portfolio,Gpt,JS_Slider,Genome,Kasper,LeonOne,html,js,reactIcon,Aya,css,gmail,Git,github,front,tool,softSkills,Aya_jouney_CV};
