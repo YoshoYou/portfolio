@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9c5c4c5f.css",
-    "main.js": "/portfolio/static/js/main.14eeda8b.js",
+    "main.js": "/portfolio/static/js/main.dddd3de8.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/agri_plat.png": "/portfolio/static/media/agri_plat.21db0454ca28c73729fe.png",
     "static/media/dr_portfolio.png": "/portfolio/static/media/dr_portfolio.05e90a5b2dac82ae0d27.png",
@@ -11,6 +11,7 @@
     "static/media/Gpt.png": "/portfolio/static/media/Gpt.3c7fe0312ddf072eef89.png",
     "static/media/LeonOne.png": "/portfolio/static/media/LeonOne.a3e606c4be410f546cbd.png",
     "static/media/Kasper.png": "/portfolio/static/media/Kasper.0dfae28d695e6be0166b.png",
+    "static/media/dashboard.png": "/portfolio/static/media/dashboard.47cfc4725844a79acaf1.png",
     "static/media/Aya.jpg": "/portfolio/static/media/Aya.f1201a393862745cea6a.jpg",
     "static/media/Index.png": "/portfolio/static/media/Index.beddda0fbf53881937c3.png",
     "static/media/Genome.png": "/portfolio/static/media/Genome.a96802441450605ea1f2.png",
@@ -27,11 +28,11 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.9c5c4c5f.css.map": "/portfolio/static/css/main.9c5c4c5f.css.map",
-    "main.14eeda8b.js.map": "/portfolio/static/js/main.14eeda8b.js.map",
+    "main.dddd3de8.js.map": "/portfolio/static/js/main.dddd3de8.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c5c4c5f.css",
-    "static/js/main.14eeda8b.js"
+    "static/js/main.dddd3de8.js"
   ]
 }
