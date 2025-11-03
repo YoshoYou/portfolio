@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9c5c4c5f.css",
-    "main.js": "/portfolio/static/js/main.dddd3de8.js",
+    "main.js": "/portfolio/static/js/main.96fd1aac.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/agri_plat.png": "/portfolio/static/media/agri_plat.21db0454ca28c73729fe.png",
     "static/media/dr_portfolio.png": "/portfolio/static/media/dr_portfolio.05e90a5b2dac82ae0d27.png",
@@ -15,7 +15,7 @@
     "static/media/Aya.jpg": "/portfolio/static/media/Aya.f1201a393862745cea6a.jpg",
     "static/media/Index.png": "/portfolio/static/media/Index.beddda0fbf53881937c3.png",
     "static/media/Genome.png": "/portfolio/static/media/Genome.a96802441450605ea1f2.png",
-    "static/media/Aya Jouney - Front-End Developer - Resume.pdf": "/portfolio/static/media/Aya Jouney - Front-End Developer - Resume.4321b1e211919d24084e.pdf",
+    "static/media/Aya Jouney - Front-End Developer - Resume_.pdf": "/portfolio/static/media/Aya Jouney - Front-End Developer - Resume_.244a2c4443405183c22a.pdf",
     "static/media/ToDoList.png": "/portfolio/static/media/ToDoList.dc36396dc51530c597bc.png",
     "static/media/ToList.png": "/portfolio/static/media/ToList.5ceb752572f1be96cabe.png",
     "static/media/softSkills.png": "/portfolio/static/media/softSkills.431b74d158b69d5ba8d4.png",
@@ -28,11 +28,11 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.9c5c4c5f.css.map": "/portfolio/static/css/main.9c5c4c5f.css.map",
-    "main.dddd3de8.js.map": "/portfolio/static/js/main.dddd3de8.js.map",
+    "main.96fd1aac.js.map": "/portfolio/static/js/main.96fd1aac.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c5c4c5f.css",
-    "static/js/main.dddd3de8.js"
+    "static/js/main.96fd1aac.js"
   ]
 }
