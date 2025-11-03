@@ -1,8 +1,8 @@
-import { agri_plat, carDealer, Do, dr_portfolio, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, ToDoList } from "../assets/images/export";
+import { agri_plat, carDealer, dashboard, Do, dr_portfolio, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, ToDoList } from "../assets/images/export";
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "./assets/images/front.png",
+        icon: "./assets/images/frd/ont.png",
         key:  1,
         skills: [
             { skill: "HTML5", percentage: "90%" },
@@ -41,89 +41,85 @@ export const WORK_EXPEIENCE = [
     }
 
 ];
-export const My_Repo = [
+const My_Repo_raw = [
+    {
+        title: "Dashboard",
+        link: "https://yoshoyou.github.io/dashboar",
+        description: "React JS,Vite , Tailwind , CSS",
+        image : `${ dashboard }`
+    },
     {
         title: "To-Do List",
         link: "https://yoshoyou.github.io/to-do-list/",
         description: "React JS,Vite , Tailwind , CSS",
-        image : `${ ToDoList }`,
-        key:0
+        image : `${ ToDoList }`
     },
     {
         title: "Agricultural  Platform",
         link: "https://yoshoyou.github.io/agricultural-platform/",
         description: "React JS,Vite ,Tailwind , CSS",
-        image: `${ agri_plat }`,
-        key:1
+        image: `${ agri_plat }`
     },
     {
         title: "Car Showroom",
         link: "https://yoshoyou.github.io/car-dealer/",
         description: "React JS ,HTML , CSS",
-        image: `${ carDealer }`,
-        key:2
+        image: `${ carDealer }`
     },
     {
         title: "Dr.sara jouney portfolio",
         link: "https://yoshoyou.github.io/d.sara-jouney-portfolio/",
         description: "React JS ,HTML , CSS",
-        image: `${ dr_portfolio }`,
-        key:3
+        image: `${ dr_portfolio }`
     },
     {
         title: "Chat GPT App",
         link: "https://yoshoyou.github.io/chat-gpt-app/",
         description: "React JS ,HTML , CSS",
-        image: `${ Gpt }`,
-        key:4
+        image: `${ Gpt }`
     },
     {
         title: "Medical School",
         link: "https://yoshoyou.github.io/medical-website/",
         description: "JavaScript , HTML , CSS",
-        image: `${ medical }`,
-        key:5
+        image: `${ medical }`
     },
     {
         title: "Genome",
         link: "https://yoshoyou.github.io/Genome/",
         description: "JavaScript ,HTML , CSS",
-        image: `${ Genome }`,
-        key:6
+        image: `${ Genome }`
     },
     {
         title: "Template One",
         link: "https://yoshoyou.github.io/Template-one/",
         description: "HTML , CSS",
-        image: `${ LeonOne }`,
-        key:7
+        image: `${ LeonOne }`
     },
     {
         title: "Template Two",
         link: "https://yoshoyou.github.io/Template-two/",
         description: "HTML , CSS",
-        image: `${ Kasper }`,
-        key:8
+        image: `${ Kasper }`
     },
     {
         title: "Template three",
         link: "https://yoshoyou.github.io/Template-three/",
         description:"HTML , CSS",
-        image: `${ Index }`,
-        key:9
+        image: `${ Index }`
     },
     {
         title: "Picture Gallery-1",
         link: "https://yoshoyou.github.io/pictures-gallery/",
         description: " JavaScript , HTML , CSS",
-        image: `${ Do }`,
-        key:10
+        image: `${ Do }`
     },
     {
         title: "Picture Gallery-2",
         link: "https://yoshoyou.github.io/pictures-gallery-2/",
         description: " JavaScript , HTML , CSS",
-        image: `${ JS_Slider }`,
-        key:11
+        image: `${ JS_Slider }`
     }
-]
+];
+
+export const My_Repo = My_Repo_raw.map((item, idx) => ({ ...item, key: idx }));
