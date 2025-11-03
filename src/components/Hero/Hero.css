@@ -9,6 +9,7 @@
     border: 0.5rem solid #a892fe;
     background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
     padding: 0.5rem;
+    cursor: pointer;
 }
 .resume button a {
     text-decoration: none;

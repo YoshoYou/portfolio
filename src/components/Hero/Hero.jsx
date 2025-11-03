@@ -9,8 +9,10 @@ function Hero() {
                 <div className="hero-content">
                     <h2>Building Digital Experiences That Inspire</h2>
                     <p>
-                        Passionate Frontend Developer | Transforming Ideas into Seamless and
-                        Visually Stunning Web Solutions
+                       I'm a passionate Front-End Developer with a strong focus on creating clean, responsive,
+                        and user-friendly web interfaces. I specialize in turning ideas and designs into fully functional digital experiences using modern technologies
+                        like HTML, CSS, JavaScript, React, and Tailwind CSS. With a keen eye for detail and a dedication to writing maintainable, efficient code,
+                        I strive to build products that not only look great but also perform flawlessly across all devices.
                     </p>
                     <div className="resume">
                         <button>
