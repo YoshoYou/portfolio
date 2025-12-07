@@ -1,4 +1,4 @@
-import { agri_plat, carDealer, dashboard, Do, dr_portfolio, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, ToDoList } from "../assets/images/export";
+import { agri_plat, carDealer, dashboard, Do, dr_portfolio, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, prokoders, ToDoList } from "../assets/images/export";
 export const SKILLS = [
     {
         title: "Frontend",
@@ -43,8 +43,20 @@ export const WORK_EXPEIENCE = [
 ];
 const My_Repo_raw = [
     {
+        title: "ProKoders App",
+        link: "https://yoshoyou.github.io/hero-section/",
+        description: "React JS,Vite ,TypeScript, Tailwind",
+        image : `${ prokoders }`
+    },
+        {
+        title: "Agricultural  Platform",
+        link: "https://yoshoyou.github.io/agricultural-platform/",
+        description: "React JS,Vite ,Tailwind , CSS",
+        image: `${ agri_plat }`
+    },
+    {
         title: "Dashboard",
-        link: "https://yoshoyou.github.io/dashboar",
+        link: "https://yoshoyou.github.io/dashboard/",
         description: "React JS,Vite , Tailwind , CSS",
         image : `${ dashboard }`
     },
@@ -54,12 +66,7 @@ const My_Repo_raw = [
         description: "React JS,Vite , Tailwind , CSS",
         image : `${ ToDoList }`
     },
-    {
-        title: "Agricultural  Platform",
-        link: "https://yoshoyou.github.io/agricultural-platform/",
-        description: "React JS,Vite ,Tailwind , CSS",
-        image: `${ agri_plat }`
-    },
+
     {
         title: "Car Showroom",
         link: "https://yoshoyou.github.io/car-dealer/",

@@ -32,9 +32,6 @@ const Navbar = () =>
                         <li>
                             <a  href='#contact-me' className="menu-item">Contact Me</a>
                         </li>
-                        <button className="contact-btn" onClick={ ()=>{ }} >
-                            Hire Me
-                        </button>
                     </ul>
                     <div className="btn">
                         { openMenu ?"":

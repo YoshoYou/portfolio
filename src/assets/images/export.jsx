@@ -24,4 +24,5 @@ import agri_plat from './agri_plat.png'
 import ToDoList from './ToDoList.png'
 import ToList from './ToList.png'
 import dashboard from './dashboard.png'
-export {medical,dashboard,ToDoList,ToList,agri_plat,Index,carDealer,Do,dr_portfolio,Gpt,JS_Slider,Genome,Kasper,LeonOne,html,js,reactIcon,Aya,css,gmail,Git,github,front,tool,softSkills,Aya_jouney_CV};
+import prokoders from './Prokoders.png'
+export {medical,prokoders,dashboard,ToDoList,ToList,agri_plat,Index,carDealer,Do,dr_portfolio,Gpt,JS_Slider,Genome,Kasper,LeonOne,html,js,reactIcon,Aya,css,gmail,Git,github,front,tool,softSkills,Aya_jouney_CV};
