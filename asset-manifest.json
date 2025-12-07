@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9a495434.css",
-    "main.js": "/portfolio/static/js/main.04cd7407.js",
+    "main.js": "/portfolio/static/js/main.d395b5b2.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/agri_plat.png": "/portfolio/static/media/agri_plat.21db0454ca28c73729fe.png",
+    "static/media/aya_j.jpg": "/portfolio/static/media/aya_j.6cb9546e15846d577aff.jpg",
     "static/media/dr_portfolio.png": "/portfolio/static/media/dr_portfolio.05e90a5b2dac82ae0d27.png",
     "static/media/Car Dealer.png": "/portfolio/static/media/Car Dealer.b992a7ebc3545eed2a76.png",
     "static/media/Medical_School.png": "/portfolio/static/media/Medical_School.d6bb2f26850173dcafa4.png",
@@ -29,11 +30,11 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.9a495434.css.map": "/portfolio/static/css/main.9a495434.css.map",
-    "main.04cd7407.js.map": "/portfolio/static/js/main.04cd7407.js.map",
+    "main.d395b5b2.js.map": "/portfolio/static/js/main.d395b5b2.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a495434.css",
-    "static/js/main.04cd7407.js"
+    "static/js/main.d395b5b2.js"
   ]
 }
