@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import { html, js, reactIcon, Aya, css, Aya_jouney_CV } from '../../assets/images/export';
+import { html, js, reactIcon, Aya, css, Aya_jouney_CV, aya } from '../../assets/images/export';
 
 function Hero() {
     return (
@@ -25,7 +25,7 @@ function Hero() {
                         <div className="tech-icon">
                             <img src={reactIcon} alt="react-icon" />
                         </div>
-                        <img src={Aya} alt="personal" />
+                        <img src={aya} alt="personal" />
                     </div>
                     <div>
                         <div className="tech-icon">

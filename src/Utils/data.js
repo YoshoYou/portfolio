@@ -54,6 +54,12 @@ const My_Repo_raw = [
         description: "React JS,Vite ,Tailwind , CSS",
         image: `${ agri_plat }`
     },
+        {
+        title: "Dr.sara jouney portfolio",
+        link: "https://yoshoyou.github.io/d.sara-jouney-portfolio/",
+        description: "React JS ,HTML , CSS",
+        image: `${ dr_portfolio }`
+    },
     {
         title: "Dashboard",
         link: "https://yoshoyou.github.io/dashboard/",
@@ -73,12 +79,7 @@ const My_Repo_raw = [
         description: "React JS ,HTML , CSS",
         image: `${ carDealer }`
     },
-    {
-        title: "Dr.sara jouney portfolio",
-        link: "https://yoshoyou.github.io/d.sara-jouney-portfolio/",
-        description: "React JS ,HTML , CSS",
-        image: `${ dr_portfolio }`
-    },
+
     {
         title: "Chat GPT App",
         link: "https://yoshoyou.github.io/chat-gpt-app/",
