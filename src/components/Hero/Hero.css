@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    margin-top: 4rem;
 }
 .resume button {
     margin: 1rem 0 1rem 1rem;
@@ -93,7 +94,10 @@
 .tech-icon img:hover {
     transform: translateY(-0.5rem);
 }
-@media (max-width:1025px) {
+@media (max-width:1044px) {
+        .hero-container {
+        flex-direction: column;
+    }
     .hero-content h2 {
         font-size: 3rem;
         line-height: 4rem;
@@ -103,8 +107,8 @@
         line-height: 1.6rem;
     }
     .hero-img > div > img {
-        width: 20rem;
-        height: 20rem;
+        width: 16rem;
+        height: 22rem;
     }
     .tech-icon {
         width: 4rem;
@@ -115,9 +119,7 @@
     }
 }
 @media (max-width:768px) {
-    .hero-container {
-        flex-direction: column;
-    }
+
     .hero-img {
         margin: 2rem 0 2rem 0;
     }
@@ -159,9 +161,6 @@
     }
     .hero-img > div {
         gap: 1rem;
-    }
-    .hero-img > div > img {
-        width: 16rem;
     }
     .tech-icon {
         width: 3.3rem;

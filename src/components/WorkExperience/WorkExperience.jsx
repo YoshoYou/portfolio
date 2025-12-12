@@ -1,48 +1,36 @@
-import React from 'react'
 import './WorkExperience.css'
 import { WORK_EXPEIENCE } from '../../Utils/data';
 import { ExperienceCard } from './ExperienceCard/ExperienceCard.jsx';
-import { useRef } from 'react';
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import Slider from 'react-slick';
 export const WorkExperience = () =>
 {
-    const sliderRef = useRef();
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 2,
+        centerMode: true,   
+        centerPadding: '0px',
+        centerMargin: '0px',
         sllidesToScroll: 1,
-        arrows: false,
-        responsive: [
+        arrows: true,
+        responsive:  [
             {
-                breakpoint: 769,
-                settings: {
+                breakpoint: 1285,
+                settings : {
                     slidesToShow: 1,
-                    sllidesToScroll: 1,
-                },
-            },
-        ],
+                }
+            }
+        ]
     };
-    const slideRight = () =>
-    {
-        sliderRef.current.slicNext();
-    }
-    const slideLeft = () =>
-    {
-        sliderRef.current.slicPrev();
-    }
+    
     return (
-        <section className='experience-container'>
-            <h5>WOrk Experience</h5>
-            <div className="arrow-right" onClick={slideRight}>
-                <span className="material-symbol-outlined">chevron_right</span>
-            </div>
-            <div className="arrow-left" onClick={slideLeft}>
-                <span className="material-symbol-outlined">chevron_left</span>
-            </div>
+        <section className='experience-container' id='Experiences'>
+            <h5>Work Experience</h5>
             <div className="experience-content">
-                <Slider ref={ sliderRef } {...settings} >
+                <Slider  {...settings} >
                 { WORK_EXPEIENCE.map( ( item ) => (
                     <ExperienceCard key={item.title} details={item} />
                 ) ) }

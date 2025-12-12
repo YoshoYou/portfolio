@@ -12,7 +12,7 @@ export const Skills = () =>
         setSelectedSkill( data );
     };
     return (
-        <section className='skills-container' id='skills'>
+        <section className='skills-container' id='Skills'>
             <h5>Technical Proficiency</h5>
             <div className="skills-content">
                 <div className="skills">

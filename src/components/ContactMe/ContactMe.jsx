@@ -6,7 +6,7 @@ import { Git, gmail } from '../../assets/images/export';
 export const ContactMe = () => {
     return (
         <section>
-            <div className="contact-container" id='contact-me'>
+            <div className="contact-container" id='Contact Me'>
                 <h5>Contact Me</h5>
                 <p>You can send me Your response by clicking my email and writing your message Or use this Form down below and write your response directly.</p>
                 <div className="contact-content">

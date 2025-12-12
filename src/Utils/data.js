@@ -5,10 +5,10 @@ export const SKILLS = [
         icon: "./assets/images/frd/ont.png",
         key:  1,
         skills: [
-            { skill: "HTML5", percentage: "90%" },
-            { skill: "CSS3 {Sass/SCSS}", percentage: "80%" },
-            { skill: "JavaScript", percentage: "75%" },
-            { skill: "React.js", percentage: "80%" }
+            { skill: "React.js", percentage: "90%" },
+            { skill: "tailwind", percentage: "85%" },
+            { skill: "JavaScript", percentage: "80%" },
+            { skill: "typeScript", percentage: "80%" }
         ],
     },
     {
@@ -17,9 +17,9 @@ export const SKILLS = [
         key:2,
         skills: [
             { skill: "Git & GitHub", percentage: "80%" },
-            { skill: "Visual Studio Code", percentage: "75%" },
+            { skill: "Visual Studio Code", percentage: "80%" },
             { skill: "Webpack", percentage: "60%" },
-            { skill: "Responsive Design", percentage: "75%%" }
+            { skill: "Responsive Design", percentage: "95%" }
         ],
     },
     {
@@ -34,11 +34,28 @@ export const SKILLS = [
         ],
     },
 ];
+export const Nav_Links = ["Home","Skills","Experiences","My-Repo","Contact Me"]
 export const WORK_EXPEIENCE = [
     {
-        title: "Senior Frontend Developer at Tech Inovators",
-        date: "January 2022 - present",
-    }
+        title: "Frontend Training  in ProKoders company",
+        date: "December  2025 ",
+        info:" online training program focused on advanced frontend development.",   
+        responsabilites: [
+            "Learned tailwind, TypeScript, Redux and React.js to build responsive web applications.",
+            "Collaborated on real-world projects, enhancing teamwork and communication skills.",
+            "Gained practical experience through hands-on coding exercises and assignments."
+        ]
+    },
+    {
+        title: "Working for Sama ALMajd company",
+        date: "December  2025 ",
+        info:" online school for helping student to get access for tutorial ",   
+        responsabilites: [
+            "I help students to get enrollled in this courses and guid them to use our app.",
+            "Reciving feedback from students and their parents about our courses.",
+            "We give our students a free tablet  encouraging them to make a progress."
+        ]
+    },
 
 ];
 const My_Repo_raw = [

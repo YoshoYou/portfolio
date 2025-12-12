@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { SiCodechef } from "react-icons/si";
 import { IoMenu } from "react-icons/io5";
 import { MobileNav } from '../../MobileNav/MobileNav';
+import { Nav_Links } from '../../Utils/data';
 const Navbar = () =>
 {
     const [ openMenu, setOpenMenu ] = useState( false );
@@ -20,18 +21,11 @@ const Navbar = () =>
                         </div>
                     
                     <ul>
-                        <li>
-                            <a href='#Home' className='menu-item'>Home</a>
-                        </li>
-                        <li>
-                            <a href='#skills' className='menu-item'>Skills</a>
-                        </li>
-                        <li>
-                            <a href="#My-Repo" className="menu-item">My-Repo</a>
-                        </li>
-                        <li>
-                            <a  href='#contact-me' className="menu-item">Contact Me</a>
-                        </li>
+                        {Nav_Links.map((item)=>(
+                            <li key={item}>
+                                <a href={`#${item}`}  className='menu-item'>{item}</a>
+                            </li>
+                        ))}
                     </ul>
                     <div className="btn">
                         { openMenu ?"":

@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+:focus {
+    outline: none;
+}
 .container {
     max-width: 1300px !important;
     margin: 0 auto;
