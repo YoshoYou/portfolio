@@ -1,4 +1,4 @@
-import { agri_plat, carDealer, dashboard, Do, dr_portfolio, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, prokoders, ToDoList } from "../assets/images/export";
+import { agri_plat, carDealer, dashboard, Do, dr_portfolio, edupath, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, prokoders, ToDoList } from "../assets/images/export";
 export const SKILLS = [
     {
         title: "Frontend",
@@ -59,6 +59,12 @@ export const WORK_EXPEIENCE = [
 
 ];
 const My_Repo_raw = [
+    {
+        title: "ProKoders App",
+        link: "https://yoshoyou.github.io/edu-path/",
+        description: "React JS,Vite , Tailwind",
+        image : `${ edupath }`
+    },
     {
         title: "ProKoders App",
         link: "https://yoshoyou.github.io/hero-section/",

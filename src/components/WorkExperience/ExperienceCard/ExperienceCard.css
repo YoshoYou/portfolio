@@ -19,8 +19,9 @@
     display: block;
     padding-top: 0.3rem;
 }
+
 .work-experience-card ul {
-    margin: 1rem 0  0 0;
+    margin: 2rem 0  0 0;
 }
 .work-experience-card ul li {
     list-style: none;
