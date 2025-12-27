@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f622ef8c.css",
-    "main.js": "/portfolio/static/js/main.d6f8ad3a.js",
+    "main.css": "/portfolio/static/css/main.fde6dda1.css",
+    "main.js": "/portfolio/static/js/main.b74bc970.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/agri_plat.png": "/portfolio/static/media/agri_plat.21db0454ca28c73729fe.png",
     "static/media/aya_j.jpg": "/portfolio/static/media/aya_j.6cb9546e15846d577aff.jpg",
     "static/media/dr_portfolio.png": "/portfolio/static/media/dr_portfolio.05e90a5b2dac82ae0d27.png",
     "static/media/Car Dealer.png": "/portfolio/static/media/Car Dealer.b992a7ebc3545eed2a76.png",
+    "static/media/edupath.png": "/portfolio/static/media/edupath.9a7dcffaddadde167d7c.png",
     "static/media/Medical_School.png": "/portfolio/static/media/Medical_School.d6bb2f26850173dcafa4.png",
     "static/media/JS_SLider.png": "/portfolio/static/media/JS_SLider.63d82aab3f3ad7df1c7e.png",
     "static/media/Gpt.png": "/portfolio/static/media/Gpt.3c7fe0312ddf072eef89.png",
@@ -29,12 +30,12 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.f622ef8c.css.map": "/portfolio/static/css/main.f622ef8c.css.map",
-    "main.d6f8ad3a.js.map": "/portfolio/static/js/main.d6f8ad3a.js.map",
+    "main.fde6dda1.css.map": "/portfolio/static/css/main.fde6dda1.css.map",
+    "main.b74bc970.js.map": "/portfolio/static/js/main.b74bc970.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f622ef8c.css",
-    "static/js/main.d6f8ad3a.js"
+    "static/css/main.fde6dda1.css",
+    "static/js/main.b74bc970.js"
   ]
 }
