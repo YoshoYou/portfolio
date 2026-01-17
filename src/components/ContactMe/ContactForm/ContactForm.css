@@ -24,12 +24,12 @@ form textarea {
     padding: 1rem;
 }
 form button {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: #fff;
     border: 1.5rem solid #a892fe;
     border-radius: 0.6rem;
-    background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
+    background: linear-gradient(90deg, #9b85f6 0%, #8064e8 100%);
     padding: 0.7rem;
     transition: all 0.3 ease;
     cursor: pointer;
@@ -42,8 +42,7 @@ form button {
     /* margin: 2rem; */
 }
 form button:hover {
-    color: #a892fe;
-    background: transparent;
+    background: linear-gradient(90deg, #6c51d5 0%, #6847dd 100%);
 }
 @media (max-width:450px) {
     .name-container {

@@ -8,9 +8,9 @@ export const WorkExperience = () =>
 {
     const settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         speed: 1000,
-        slidesToShow: 2,
+        slidesToShow: 1,
         centerMode: true,   
         centerPadding: '0px',
         centerMargin: '0px',
@@ -30,10 +30,10 @@ export const WorkExperience = () =>
         <section className='experience-container' id='Experiences'>
             <h5>Work Experience</h5>
             <div className="experience-content">
-                <Slider  {...settings} >
-                { WORK_EXPEIENCE.map( ( item ) => (
-                    <ExperienceCard key={item.title} details={item} />
-                ) ) }
+                <Slider  {...settings}  >
+                
+                    <ExperienceCard key={WORK_EXPEIENCE.title} details={WORK_EXPEIENCE} />
+               
                     </Slider>
             </div>
         </section>

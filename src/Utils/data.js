@@ -35,32 +35,23 @@ export const SKILLS = [
     },
 ];
 export const Nav_Links = ["Home","Skills","Experiences","My-Repo","Contact Me"]
-export const WORK_EXPEIENCE = [
+export const WORK_EXPEIENCE = 
     {
         title: "Frontend Training  in ProKoders company",
-        date: "December  2025 ",
+        date: "December  2025- January 2026",
         info:" online training program focused on advanced frontend development.",   
         responsabilites: [
             "Learned tailwind, TypeScript, Redux and React.js to build responsive web applications.",
             "Collaborated on real-world projects, enhancing teamwork and communication skills.",
             "Gained practical experience through hands-on coding exercises and assignments."
         ]
-    },
-    {
-        title: "Working for Sama ALMajd company",
-        date: "December  2025 ",
-        info:" online school for helping student to get access for tutorial ",   
-        responsabilites: [
-            "I help students to get enrollled in this courses and guid them to use our app.",
-            "Reciving feedback from students and their parents about our courses.",
-            "We give our students a free tablet  encouraging them to make a progress."
-        ]
-    },
+    };
 
-];
+
+
 const My_Repo_raw = [
     {
-        title: "ProKoders App",
+        title: "ProKoders Courses App",
         link: "https://yoshoyou.github.io/edu-path/",
         description: "React JS,Vite , Tailwind",
         image : `${ edupath }`

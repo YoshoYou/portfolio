@@ -33,6 +33,7 @@ p {
     overflow: hidden;
 }
 .repo-content .repo img {
+
     width: 400px;
     height: 300px;
 }
@@ -45,10 +46,11 @@ h6 {
     font-weight: 1000;
     word-spacing: 4px;
     color: white;
+    margin-top: 0.5rem;
 }
 .repo-content .repo p {
     padding: 0.2rem;
-    margin: 0.2rem;
+    margin-bottom: 0.5rem;
     color: #fff;
     font-size: 0.8rem;
     font-weight: 300;
