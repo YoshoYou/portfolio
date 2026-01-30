@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eee93af6.css",
-    "main.js": "/portfolio/static/js/main.07c4b625.js",
+    "main.css": "/portfolio/static/css/main.9232658b.css",
+    "main.js": "/portfolio/static/js/main.10121f61.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/agri_plat.png": "/portfolio/static/media/agri_plat.21db0454ca28c73729fe.png",
     "static/media/aya_j.jpg": "/portfolio/static/media/aya_j.6cb9546e15846d577aff.jpg",
@@ -18,9 +18,9 @@
     "static/media/Index.png": "/portfolio/static/media/Index.beddda0fbf53881937c3.png",
     "static/media/Genome.png": "/portfolio/static/media/Genome.a96802441450605ea1f2.png",
     "static/media/Prokoders.png": "/portfolio/static/media/Prokoders.e5cc7f18a21b62adffea.png",
-    "static/media/Aya Jouney - Front-End Developer - Resume_.pdf": "/portfolio/static/media/Aya Jouney - Front-End Developer - Resume_.244a2c4443405183c22a.pdf",
     "static/media/ToDoList.png": "/portfolio/static/media/ToDoList.dc36396dc51530c597bc.png",
     "static/media/ToList.png": "/portfolio/static/media/ToList.5ceb752572f1be96cabe.png",
+    "static/media/ayajouney-CV.pdf": "/portfolio/static/media/ayajouney-CV.85d7e17c7c65c8161007.pdf",
     "static/media/softSkills.png": "/portfolio/static/media/softSkills.431b74d158b69d5ba8d4.png",
     "static/media/front.png": "/portfolio/static/media/front.7525ff1769b8dac7c854.png",
     "static/media/Document.png": "/portfolio/static/media/Document.3e030e09774481ee05ba.png",
@@ -30,12 +30,12 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.eee93af6.css.map": "/portfolio/static/css/main.eee93af6.css.map",
-    "main.07c4b625.js.map": "/portfolio/static/js/main.07c4b625.js.map",
+    "main.9232658b.css.map": "/portfolio/static/css/main.9232658b.css.map",
+    "main.10121f61.js.map": "/portfolio/static/js/main.10121f61.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eee93af6.css",
-    "static/js/main.07c4b625.js"
+    "static/css/main.9232658b.css",
+    "static/js/main.10121f61.js"
   ]
 }
