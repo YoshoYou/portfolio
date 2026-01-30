@@ -21,7 +21,17 @@
     display: block;
     padding-top: 0.3rem;
 }
-
+.work-experience-card span a {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.work-experience-card span a:hover {
+    color: #e7dede;
+}
 .work-experience-card ul {
     margin: 2rem 0  0 0;
 }
@@ -50,6 +60,11 @@
     }
 }
 @media (max-width:460px) {
+    .work-experience-card {
+        
+        padding: 5px 10px;
+        width: max-content;
+    }
 .work-experience-card h6 {
     font-size: 1rem;
     font-weight: 400;

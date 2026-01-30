@@ -38,8 +38,9 @@ export const Nav_Links = ["Home","Skills","Experiences","My-Repo","Contact Me"]
 export const WORK_EXPEIENCE = 
     {
         title: "Frontend Training  in ProKoders company",
-        date: "December  2025- January 2026",
+        date: "December  2025 - January 2026",
         info:" online training program focused on advanced frontend development.",   
+        compEmail:"info@prokoders.com",
         responsabilites: [
             "Learned tailwind, TypeScript, Redux and React.js to build responsive web applications.",
             "Collaborated on real-world projects, enhancing teamwork and communication skills.",

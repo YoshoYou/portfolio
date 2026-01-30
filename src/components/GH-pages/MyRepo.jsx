@@ -3,7 +3,7 @@ import './MyRepo.css';
 import { My_Repo } from '../../Utils/data';
 const MyRepo = () => {
   return (
-    <section>
+    <section className='repo'>
       <div className="repo-container" id='My-Repo'>
         <h5>My Repository</h5>
         <p>check out my github pages to see my project live</p>
