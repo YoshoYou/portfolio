@@ -8,6 +8,7 @@ import { WorkExperience } from "./components/WorkExperience/WorkExperience";
 import { ContactMe } from "./components/ContactMe/ContactMe";
 // import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import MyRepo from "./components/GH-pages/MyRepo";
+import License from "./components/License/License";
 function App ()
 {
   return (
@@ -17,6 +18,7 @@ function App ()
           <Hero/>
         <Skills />
           <WorkExperience /> 
+          <License />
         <MyRepo />
         <ContactMe />
       </div>

@@ -1,4 +1,4 @@
-import { agri_plat, carDealer, dashboard, Do, dr_portfolio, edupath, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, prokoders, ToDoList } from "../assets/images/export";
+import { agri_plat, aya_front, carDealer, dashboard, Do, dr_portfolio, edupath, Genome, Gpt, Index, JS_Slider, Kasper, LeonOne, medical, prokoders, ToDoList } from "../assets/images/export";
 export const SKILLS = [
     {
         title: "Frontend",
@@ -35,7 +35,8 @@ export const SKILLS = [
     },
 ];
 export const Nav_Links = ["Home","Skills","Experiences","My-Repo","Contact Me"]
-export const WORK_EXPEIENCE = 
+export const WORK_EXPERIENCE = [
+    
     {
         title: "Frontend Training  in ProKoders company",
         date: "December  2025 - January 2026",
@@ -46,7 +47,21 @@ export const WORK_EXPEIENCE =
             "Collaborated on real-world projects, enhancing teamwork and communication skills.",
             "Gained practical experience through hands-on coding exercises and assignments."
         ]
-    };
+    },
+    {
+        title: "Frontend developer at Davinda company",
+        date: "Mars  2026 - Until Now",
+        info:" onsite Front-end React js Developer",   
+        compEmail:"info@davinda.com",
+        responsabilites: [
+            "Working on live websites and developing e-commerce using React,Vue,Nuxt and Tailwind css.",
+            "Collaborating with back-end team and using API to ensure getting real data from dashboards.",
+            "Gained practical experience through working with expert team and gaining git hub & git lab knowledge to handle version control."
+        ]
+    },
+];
+
+    export const license =[`${aya_front}`]
 
 
 

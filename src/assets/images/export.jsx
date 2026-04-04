@@ -27,4 +27,5 @@ import dashboard from './dashboard.png'
 import prokoders from './Prokoders.png'
 import aya from './aya_j.jpg'
 import edupath from './edupath.png'
-export {medical,aya,prokoders,dashboard,edupath,ToDoList,ToList,agri_plat,Index,carDealer,Do,dr_portfolio,Gpt,JS_Slider,Genome,Kasper,LeonOne,html,js,reactIcon,Aya,css,gmail,Git,github,front,tool,softSkills,Aya_jouney_CV};
+import aya_front from './aya_front.png'
+export {medical,aya,aya_front,prokoders,dashboard,edupath,ToDoList,ToList,agri_plat,Index,carDealer,Do,dr_portfolio,Gpt,JS_Slider,Genome,Kasper,LeonOne,html,js,reactIcon,Aya,css,gmail,Git,github,front,tool,softSkills,Aya_jouney_CV};
